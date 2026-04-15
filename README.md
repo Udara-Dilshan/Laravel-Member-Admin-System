@@ -39,3 +39,28 @@ Follow these steps to get the project running locally:
    ```bash
    git clone [https://github.com/Udara-Dilshan/laravel-member-admin-system.git](https://github.com/Udara-Dilshan/laravel-member-admin-system.git)
    cd laravel-member-admin-system
+
+2. **Install dependencies:**
+    ```bash
+    composer install
+    npm install && npm run dev
+
+3. **Environment Setup:**
+   Copy .env.example to .env
+   Set your database credentials in the .env file.
+   Run php artisan key:generate
+
+4. **Run Migrations:**
+   ```bash
+   php artisan migrate
+
+5.**Start the server:**
+```bash
+    php artisan serve
+```
+# License
+This project is open-sourced software licensed under the MIT license.
+
+## 🤝 Connect with Me
+LinkedIn | GitHub
+   
